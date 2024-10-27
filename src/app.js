@@ -26,18 +26,4 @@ process.on('SIGTERM', async () => {
         process.exit(0)
     }
 })
-
 startApplication()
-
-// async function sendEmailExample() {
-//     try {
-//         await EmailService.sendEmail({
-//             to: '01.adipsafiudin@gmail.com',
-//             subject: 'Test Email',
-//             text: 'Hello, this is a test email!'
-//         })
-//     } catch (error) {
-//         console.error('Error sending email:', error)
-//     }
-// }
-// sendEmailExample()
